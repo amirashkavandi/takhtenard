@@ -28,6 +28,7 @@ import java.net.InetAddress
 import java.net.InetSocketAddress
 import java.net.ServerSocket
 import java.net.Socket
+import android.os.Build
 
 class WifiDirectPeer(private val ctx: Context) : TnConnector {
 
