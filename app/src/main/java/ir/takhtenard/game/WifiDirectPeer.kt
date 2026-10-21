@@ -21,8 +21,7 @@ import android.net.NetworkInfo
 import android.net.wifi.p2p.WifiP2pConfig
 import android.net.wifi.p2p.WifiP2pDevice
 import android.net.wifi.p2p.WifiP2pManager
-import android.net.wifi.p2p.WpsInfo
-import android.os.Build
+import android.net.wifi.WpsInfo
 import android.os.Handler
 import android.os.Looper
 import java.net.InetAddress
