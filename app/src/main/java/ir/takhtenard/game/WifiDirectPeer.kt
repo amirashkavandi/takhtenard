@@ -13,7 +13,7 @@ package ir.takhtenard.game
    No IP is typed, no router is involved and no internet is used — the traffic never leaves the two
    radios. Everything that can fail quietly is written to TnLog, because the person who has to
    diagnose a failure is a player with two phones and no adb. */
-
+import android.net.wifi.WpsInfo
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
