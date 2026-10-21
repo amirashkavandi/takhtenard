@@ -1,15 +1,15 @@
 ```yaml
 name: Build Android APK v34
 
-'on':
+on:
   workflow_dispatch:
   push:
     paths:
-      - 'app/**'
-      - '*.gradle.kts'
-      - 'gradle.properties'
-      - 'gradle/**'
-      - '.github/workflows/build-apk.yml'
+      - "app/**"
+      - "*.gradle.kts"
+      - "gradle.properties"
+      - "gradle/**"
+      - ".github/workflows/build-apk.yml"
 
 permissions:
   contents: read
@@ -25,12 +25,12 @@ jobs:
         uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: "17"
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
         with:
-          packages: 'platform-tools'
+          packages: "platform-tools"
 
       - name: Install Android SDK packages
         run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
@@ -38,7 +38,7 @@ jobs:
       - name: Set up Gradle 8.7
         uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.7'
+          gradle-version: "8.7"
 
       - name: Build APK
         run: gradle --no-daemon :app:assembleDebug
