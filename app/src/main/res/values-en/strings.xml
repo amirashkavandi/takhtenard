@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Takhte Nard</string>
+    <string name="wifi_off">Turn on Wi-Fi first</string>
+    <string name="bt_off">Turn on Bluetooth first</string>
+    <string name="waiting_guest">Waiting for the second phone…</string>
+    <string name="looking">Looking for a phone…</string>
+    <string name="trying_bt">Wi-Fi Direct did not work, trying Bluetooth</string>
+    <string name="connected">Connected</string>
+    <string name="pick_phone">Which phone?</string>
+    <string name="cancel">Cancel</string>
+    <string name="need_perm">Without that permission the app cannot find the other phone</string>
+    <string name="lan_none">This phone has no network address — join a Wi-Fi first</string>
+    <string name="lan_wait">This phone\'s address is on the screen</string>
+    <string name="lan_knock">Knocking on that address…</string>
+    <string name="why_failed">Why it did not connect</string>
+    <string name="ok_label">OK</string>
+</resources>

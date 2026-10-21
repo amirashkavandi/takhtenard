@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تخته نرد</string>
+    <string name="wifi_off">اول وای‌فای را روشن کن</string>
+    <string name="bt_off">اول بلوتوث را روشن کن</string>
+    <string name="waiting_guest">منتظر گوشی دوم…</string>
+    <string name="looking">دنبال گوشی می‌گردد…</string>
+    <string name="trying_bt">وای‌فایِ مستقیم نگرفت، بلوتوث را امتحان می‌کنیم</string>
+    <string name="connected">وصل شد</string>
+    <string name="pick_phone">با کدام گوشی؟</string>
+    <string name="cancel">بی‌خیال</string>
+    <string name="need_perm">بدون این مجوز نمی‌شود گوشیِ دوم را پیدا کرد</string>
+    <string name="lan_none">این گوشی نشانیِ شبکه ندارد؛ اول به یک وای‌فای وصلش کن</string>
+    <string name="lan_wait">نشانیِ این گوشی روی صفحه است</string>
+    <string name="lan_knock">در حال در زدن به آن نشانی…</string>
+    <string name="why_failed">چرا وصل نشد</string>
+    <string name="ok_label">باشه</string>
+</resources>
